@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagens/book.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Livros</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">LIVROS</h1>
+    </header>
+    <!--A seguinte tag nav representa a seção de navegação das abas Home, Livros e Destaque.-->
+    <!--O link da Home abrirá na própria página Home (_self)-->
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html" target="_self"> Home </a></li>
+            <li><a href="livros.html" target="_self"> Livros </a></li>
+            <li><a href="destaque.html" target="_self"> Destaque </a></li>
+        </ul>
+    </nav>
+
+    <!-- Página de livros por gênero -->
+    <main id="pagina-livros">
+        <div id="layout-livros">
+            <section class="principal">
+                <div class="conteudo">
+                    <h2>Livros</h2>
+                    <p>Aqui você encontrará todos os livros escritos por mim!</p>
+                    <h2>Gêneros</h2>
+                    <ol>
+                        <li><a href="#action-adv-fic" target="_self">Ação, Aventura e Ficção</a></li>
+                        <li><a href="#fic-fantasy" target="_self">Ficção Histórica e Fantasia</a></li>
+                        <li><a href="#suspense" target="_self">Suspense</a></li>
+                    </ol>
+                </div>
+            </section> 
+            <aside>
+                    <figure>
+                        <img src="imagens2/castle.jpg" alt="Castelo" width="300">
+                    </figure>
+            </aside>
+        </div>
+        <article class="livros">
+            <h3 id="action-adv-fic">Ação, Aventura e Ficção</h3>
+            <ul>
+                <li>ONE PIECE: ULTIMATE</li>
+                <li>X'Evil</li>
+                <li>The Defenders</li>
+            </ul>
+            <h3 id="fic_fantasy">Ficção Histórica e Fantasia</h3>
+            <ul>
+                <li>Dimension Tales: Alvorada</li>
+                <li>Dimension Tales: Antiguidade</li>
+                <li>Dimension Tales: A Guerra dos Seis Reinos</li>
+                <li>Dimension Tales: Império Carmesim</li>
+                <li>Dimension Tales: Novo Mundo</li>
+                <li>Dimension Tales: Sangue e Ferro</li>
+                <li>Dimension Tales: Guerra da Dimension</li>
+                <li>Dimension Tales: Trono Escarlate</li>
+            </ul>
+            <h3 id="suspense">Suspense</h3>
+            <ul>
+                <li>The Hitman</li>
+            </ul>
+        </article>
+    </main>
+    <footer class="rodape">
+        <div class="footer-conteudo">
+            <h2>CONTATO</h2>
+            <ul>
+                <li>email: @reverse.comics100@gmail.com</li>
+                <li>instagram: @reverse_comics100</li>
+                <li>telefone: 9876-5432</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

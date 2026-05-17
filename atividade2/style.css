@@ -1,0 +1,256 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:#F5E6D3;
+    min-height: 100vh; 
+    width: 100%;
+}
+
+header, footer {
+    background-color:#8B0000;
+}
+
+/* Parte principal da Página Inicial/Home */
+#corpo {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    max-width:1000px;
+    padding:20px;
+    padding: 20px 40px;
+}
+
+/* Título do site*/
+.titulo {
+    color:rgb(255, 254, 254);
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+h1, h2 {
+    color:crimson;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+nav {
+    border: 0px;
+}
+
+/* Barra de navegação */
+.navbar {
+    display:flex;
+    align-items: center;
+    background-color: #8B3A4A;;
+    color: white;
+    padding: auto;
+    padding-left: 0px;
+    gap: 40px;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px;
+    margin:0px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Efeito nos botões ao passar o mouse */
+.navbar li :hover {
+    background-color:#B85C70;
+    color:rgb(47, 47, 47);
+}
+
+/* Links para as outras páginas */
+.navbar a {
+    display: block;
+    padding: 18px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Centraliza o conteúdo principal das páginas Home e Livros */
+#corpo,
+#pagina-livros {
+    width: min(1200px, 90%);
+    margin: 0 auto;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+/* Parte inicial da Página Inicial/Home */
+#inicial {
+    margin: auto;
+    padding:20px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Organiza o texto e imagem */
+.principal {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.principal h2 {
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+/* Botão pra Amazon */
+.compra a {
+    display: inline-block;
+    background-color: #8B3A4A;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Efeito do botão */
+.compra a:hover {
+    background-color: #B85C70;
+}
+
+a {
+    color: #8B3A4A;
+}
+
+a:hover {
+    color: #B85C70;
+}
+
+/* Estrutura da página Livros */
+#layout-livros { 
+    display: flex; 
+    align-items: flex-start; 
+    gap: 40px; 
+    padding-left: 10px;
+}
+
+/* Parte principal da página Livros */
+#pagina-livros {
+    max-width:1000px;
+    padding:20px;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+
+/* Centraliza os conteúdos */
+.principal,
+#destaque section {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+/* Caixa de livros */
+.livros {
+    width: 100%;
+    max-width: 850px;
+
+    margin: 30px auto;
+
+    background-color: #F9EFE4;
+
+    padding: 25px;
+
+    border-radius: 12px;
+    border: 1px solid #D8A7B1;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+
+    box-sizing: border-box;
+}
+
+/* Define o estilo da lista ordenada */
+ol li {
+  list-style-type: upper-roman;  
+}
+
+/* Estilo dos parágrafos */
+p {
+    color: #2B2B2B;
+    line-height: 1.6;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 0;
+}
+
+/* Estilização e centralização das imagens */
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+aside {
+    flex-shrink: 0;
+}
+
+aside img {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    width: 320px;
+    max-width: 100%;
+    
+}
+
+/* Borda da seção dos livros*/
+#meus-livros {
+    border: 1px solid #B76E79;
+}
+
+/* Rodapé */
+footer {
+    color:rgb(255, 254, 254);
+    padding: 20px;
+    padding-top: 10px;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    background-color: #8B0000;
+    margin-top: auto;
+}
+
+.footer-conteudo {
+    width: min(1200px, 90%);
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.rodape h2 {
+    color: rgb(255, 254, 254);
+}
+
+.rodape ul {
+    padding-left: 25px;
+    line-height: 1.8;
+}
